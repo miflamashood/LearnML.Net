@@ -13,4 +13,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+   <Target Name="PreBuildEvent">
+  <Exec Command="echo Running PreBuildEvent..." />
+  </Target>
 </Project>
